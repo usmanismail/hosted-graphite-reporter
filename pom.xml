@@ -64,17 +64,17 @@
 
 
 	<dependencies>
-			<dependency>
-				<groupId>org.testng</groupId>
-				<artifactId>testng</artifactId>
-				<version>6.8</version>
-				<scope>test</scope>
-			</dependency>
-			<dependency>
-				<groupId>emma</groupId>
-				<artifactId>emma</artifactId>
-				<version>2.1.5320</version>
-			</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.8</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>emma</groupId>
+			<artifactId>emma</artifactId>
+			<version>2.1.5320</version>
+		</dependency>
 		<dependency>
 			<groupId>com.yammer.metrics</groupId>
 			<artifactId>metrics-core</artifactId>
@@ -142,40 +142,5 @@
 		</dependency>
 
 	</dependencies>
-
-	<repositories>
-		<repository>
-			<id>Genius</id>
-			<url>http://nexus01.pogospike.com:8080/nexus/content/groups/genius</url>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>genius</id>
-			<url>http://nexus01.pogospike.com:8080/nexus/content/groups/genius</url>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories>
-	<distributionManagement>
-		<repository>
-			<uniqueVersion>false</uniqueVersion>
-			<id>genius</id>
-			<name>Genius Releases</name>
-			<url>http://nexus01.pogospike.com:8080/nexus/content/repositories/releases</url>
-		</repository>
-		<snapshotRepository>
-			<uniqueVersion>false</uniqueVersion>
-			<id>genius</id>
-			<name>Genius Snapshots</name>
-			<url>http://nexus01.pogospike.com:8080/nexus/content/repositories/snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
 
 </project>
