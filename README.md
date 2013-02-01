@@ -49,3 +49,8 @@ Usage
 			postMetrics(metricsRecords);
 		}
 	}
+	
+	
+Authors
+-------------
+* [Usman Ismail](http://www.techtraits.com/usman.html)
