@@ -45,7 +45,8 @@ Usage
 			//Report Arbitrary Values
 			metricsRecord
 			List<MetricRecord> metricsRecords = new List<MetricRecord>();
-			metricsRecords.add(new MetricRecord(new MetricName(this.getClass(), "somename"), "postfix", 1.5, System.currentTimeMillis()));
+			metricsRecords.add(new MetricRecord(new MetricName(this.getClass(), "somename"), 
+				"postfix", 1.5, System.currentTimeMillis()));
 			postMetrics(metricsRecords);
 		}
 	}
