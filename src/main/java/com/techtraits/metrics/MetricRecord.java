@@ -1,4 +1,4 @@
-package com.techtraitrs.metrics;
+package com.techtraits.metrics;
 
 import com.yammer.metrics.core.MetricName;
 

@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 import com.google.appengine.api.urlfetch.HTTPRequest;
 import com.google.appengine.api.urlfetch.HTTPResponse;
 import com.google.appengine.api.urlfetch.URLFetchService;
-import com.techtraitrs.metrics.HostedGraphiteReporter;
+import com.techtraits.metrics.HostedGraphiteReporter;
 import com.yammer.metrics.Metrics;
 import com.yammer.metrics.core.Counter;
 import com.yammer.metrics.core.Gauge;

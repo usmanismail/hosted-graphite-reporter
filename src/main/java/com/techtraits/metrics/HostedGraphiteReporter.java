@@ -1,4 +1,4 @@
-package com.techtraitrs.metrics;
+package com.techtraits.metrics;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
