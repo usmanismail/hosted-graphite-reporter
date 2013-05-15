@@ -4,7 +4,7 @@
 
 	<artifactId>hosted-graphite-reporter</artifactId>
 	<groupId>com.techtraits.metrics</groupId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>Hosted Graphite Reporter</name>
